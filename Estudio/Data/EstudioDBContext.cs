@@ -10,7 +10,7 @@ namespace Estudio.Data
     public class EstudioDBContext: DbContext
     {
         public DbSet<Music> Songs { get; set; }
-        public EstudioDBContext(DbContextOptions<EstudioDBContext>options):base(options)//enlaza nuestra base de datos con el Entity
+        public EstudioDBContext(DbContextOptions<EstudioDBContext>options):base(options)//enlaza base de datos con el Entity
         {
           
         }
